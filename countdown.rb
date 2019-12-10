@@ -11,9 +11,8 @@ end
 
 def countdown_with_sleep
   counter = 5
-  sleep 1 
+  sleep(2) 
   while counter > 5
-  puts "sleep in #{counter} seconds!"
   counter -= 1 
 end
 
